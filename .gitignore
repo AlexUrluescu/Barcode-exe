@@ -1,2 +1,5 @@
 output.txt
 ./Input Files
+./dist
+./build
+./__pycache__
