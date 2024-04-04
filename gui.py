@@ -33,8 +33,9 @@ class MainWindow(QMainWindow):
         self.label_loading.show()
 
         for file in filesNames:
-            barcode = self.utils.getBarcodeFromImage(file)
-            if(len(barcode) == 13):
+            print(file)
+            if(file != ".DS_Store"):
+                barcode = self.utils.getBarcodeFromImage(file)
                 self.utils.putNameAndBarecodeIntoTxtFile(file, self.outputFilePath, barcode)
         
         QTimer.singleShot(5000, self.hideLoadingLabel)

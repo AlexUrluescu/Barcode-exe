@@ -19,7 +19,7 @@ class Utils():
 
         bd = cv2.barcode.BarcodeDetector()
 
-        retval, decoded_info, points = bd.detectAndDecode(img)
+        retval, decoded_info, decoded_type = bd.detectAndDecode(img)
 
         print(f"barcode: {retval} -> digits: {len(retval)}")
         return retval
