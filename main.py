@@ -32,7 +32,10 @@ class Utils():
             print("An error occurred:", str(e))
 
 
-directory = input("paste your images directory path: ")
+print('INFO: The exe will search for a Input Files directory, please put your images in that directory')
+input("Press the enter key to proceed")
+
+directory = 'Input Files'
 outputFilePath = 'output.txt'
 utils = Utils()
 
@@ -42,13 +45,19 @@ running = True
 
 while running:
 
+    print("Scanning ...")
+    numberOfImages = 0
+
     for file in filesNames:
             if(file != ".DS_Store"):
                 barcode = utils.getBarcodeFromImage(directory, file)
+               
                 utils.putNameAndBarecodeIntoTxtFile(file, outputFilePath, barcode)
+                numberOfImages = numberOfImages + 1
     
     
-    exit = input("The barcode scane is done, please press 0 to exit the program")
+    print(f'Were scanned {numberOfImages} images')
+    exit = input("The barcode scan is done. Please press 0 to exit the program: ")
     print(exit)
     
     if(exit == '0'):
