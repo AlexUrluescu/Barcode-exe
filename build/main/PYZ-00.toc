@@ -1270,6 +1270,10 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\unittest\\util.py',
    'PYMODULE'),
+  ('utils',
+   'C:\\Users\\Alex\\OneDrive\\Documente\\current '
+   'work\\barcode-exe\\Barcode-exe\\utils.py',
+   'PYMODULE'),
   ('uu',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\uu.py',
