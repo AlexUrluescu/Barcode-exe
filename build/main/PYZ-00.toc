@@ -1,5 +1,4 @@
-('C:\\Users\\Alex\\OneDrive\\Documente\\current '
- 'work\\barcode-exe\\Barcode-exe\\build\\main\\PYZ-00.pyz',
+('D:\\current work\\barcode-exe\\Barcode-exe\\build\\main\\PYZ-00.pyz',
  [('__future__',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\__future__.py',
@@ -1270,10 +1269,7 @@
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\unittest\\util.py',
    'PYMODULE'),
-  ('utils',
-   'C:\\Users\\Alex\\OneDrive\\Documente\\current '
-   'work\\barcode-exe\\Barcode-exe\\utils.py',
-   'PYMODULE'),
+  ('utils', 'D:\\current work\\barcode-exe\\Barcode-exe\\utils.py', 'PYMODULE'),
   ('uu',
    'C:\\Program '
    'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\\lib\\uu.py',
